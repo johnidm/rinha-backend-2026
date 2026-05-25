@@ -1,0 +1,7 @@
+{
+    "participants": ["Johni Douglas Marangon"],
+    "social": ["https://github.com/johnidm", "https://www.linkedin.com/in/johnidouglas/"],
+    "source-code-repo": "https://github.com/johnidm/rinha-backend-2026",
+    "stack": ["python", "litestar", "uvicorn", "uvloop", "zvec", "nginx"],
+    "open_to_work": true
+}
