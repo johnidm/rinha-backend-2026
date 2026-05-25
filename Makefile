@@ -1,3 +1,5 @@
+IMAGE ?= ghcr.io/johnidm/rinha-backend-2026:latest
+
 deps:
 	uv sync
 
@@ -9,3 +11,11 @@ up:
 
 down:
 	docker compose down
+
+push:
+	docker buildx build \
+	  -t $(IMAGE) \
+	  --push \
+	  .
+
+publish: push

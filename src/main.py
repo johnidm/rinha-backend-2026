@@ -2,6 +2,7 @@ from litestar import Litestar
 from litestar.openapi import OpenAPIConfig
 from litestar.openapi.spec import Contact
 
+from src.routes.favicon import favicon
 from src.routes.fraud_score import fraud_score
 from src.routes.index import index
 from src.routes.ready import ready
@@ -10,6 +11,7 @@ route_handlers = [
     ready,
     fraud_score,
     index,
+    favicon,
 ]
 
 openapi_config = OpenAPIConfig(

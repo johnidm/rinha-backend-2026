@@ -59,12 +59,3 @@ Thumbs.db
 # Logs
 *.log
 logs/
-
-# Docker (local overrides only; keep docker-compose.yml and Dockerfile)
-docker-compose.override.yml
-docker-compose.local.yml
-
-# Built zvec collection and large reference dataset
-data/
-resources/references.json.gz
-uv.lock

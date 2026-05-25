@@ -25,8 +25,8 @@ curl -s -X POST http://localhost:9999/fraud-score \
   }'
 ```
 
-## Submission
+## Teste the image 
 
 ```bash
-git switch --orphan submission
+docker run -p 9999:9999 ghcr.io/johnidm/rinha-backend-2026:latest
 ```
