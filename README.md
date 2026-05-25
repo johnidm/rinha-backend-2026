@@ -24,3 +24,9 @@ curl -s -X POST http://localhost:9999/fraud-score \
     "last_transaction": {"timestamp": "2026-03-11T14:58:35Z", "km_from_current": 18.8}
   }'
 ```
+
+## Submission
+
+```bash
+git switch --orphan submission
+```
