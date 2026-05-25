@@ -34,3 +34,14 @@ curl -s -X POST http://localhost:9999/fraud-score \
 ```bash
 docker run -p 9999:9999 ghcr.io/johnidm/rinha-backend-2026:latest
 ```
+
+## Create a pull request
+
+```
+gh pr create \
+    --repo zanfranceschi/rinha-de-backend-2026 \
+    --head johnidm:main \
+    --base main \
+    --title "Add johnidm submission - v1" \
+    --body "Adding participation file for johnidm. Repo: https://github.com/johnidm/rinha-backend-2026"
+```
