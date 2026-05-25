@@ -1,5 +1,9 @@
 # Rinha de Backend 2026 — Detecção de Fraude com Busca Vetorial
 
+
+
+> http://0.0.0.0:9999/schema/swagger
+
 ## Build & deploy local (Docker)
 
 ```bash

@@ -28,5 +28,5 @@ openapi_config = OpenAPIConfig(
 app = Litestar(
     route_handlers=route_handlers,
     openapi_config=openapi_config,
-    debug=True,
+    debug=False,
 )
